@@ -1,0 +1,31 @@
+.home_pic{
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home p{
+    font-size: 20px;
+    padding: 10px;
+    transition: all .3s ease;
+    margin-bottom: 3%;
+    background-color:  blueviolet ;
+    border-radius: 5px;
+    color: #fff;
+}
+.home p:hover{
+    background-color: rgba(85, 85, 85, 0.021);
+    color: #fff;
+}
+.home{
+    padding-top: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

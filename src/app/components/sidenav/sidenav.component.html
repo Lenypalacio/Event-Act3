@@ -1,0 +1,17 @@
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+       <div class="list">
+        <h4 routerLink="/contact">Contact</h4>
+        <h4 routerLink="/profile">Profile</h4>
+        <h4 routerLink="/gallery">Gallary</h4>
+       </div>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        <mat-icon aria-hidden="false" >menu</mat-icon>
+      </button><h4 class="title">INFORMATION</h4>
+    </div>
+  
+  </mat-drawer-container>
+  
